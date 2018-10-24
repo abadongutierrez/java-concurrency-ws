@@ -14,7 +14,7 @@ import java.util.List;
 public class HotelSearchApp {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext applicationContext =
-                new AnnotationConfigApplicationContext(com.jabaddon.nearsoft.javaconcurrencyws_solutions.HotelSearchApp.class);
+                new AnnotationConfigApplicationContext(HotelSearchApp.class);
         String[] serviceNames = new String[]{
                 "hotelService", "hotelServiceThreads", "hotelServiceCompletableFutures"
         };
