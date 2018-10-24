@@ -12,15 +12,15 @@ import org.springframework.stereotype.Service;
 import javax.annotation.PreDestroy;
 import java.util.List;
 
-@Service("hotelServiceThreads")
-public class HotelServiceWithThreadsImpl implements HotelService {
+@Service("hotelServiceCompletableFutures")
+public class HotelServiceWithCompletableFuturesImpl implements HotelService {
     private final HotelSearchService hotelSearchService;
     private final HotelEnrichmentService hotelEnrichmentService;
     private final HotelPricingService hotelPricingService;
 
     @Autowired
-    public HotelServiceWithThreadsImpl(HotelSearchService hotelSearchService, HotelEnrichmentService hotelEnrichmentService,
-                            HotelPricingService hotelPricingService) {
+    public HotelServiceWithCompletableFuturesImpl(HotelSearchService hotelSearchService, HotelEnrichmentService hotelEnrichmentService,
+                                       HotelPricingService hotelPricingService) {
         this.hotelSearchService = hotelSearchService;
         this.hotelEnrichmentService = hotelEnrichmentService;
         this.hotelPricingService = hotelPricingService;
