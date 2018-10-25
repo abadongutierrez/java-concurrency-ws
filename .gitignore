@@ -25,5 +25,7 @@
 /nbdist/
 /.nb-gradle/
 
-src/main/java/com/jabaddon/nearsoft/javaconcurrencyws/solutions/**
-src/main/java/com/jabaddon/nearsoft/javaconcurrencyws_solutions/**
+## src/main/java/com/jabaddon/nearsoft/javaconcurrencyws/solutions/**
+## src/main/java/com/jabaddon/nearsoft/javaconcurrencyws_solutions/**
+
+*.log
